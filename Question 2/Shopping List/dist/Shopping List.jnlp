@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Shopping List.jnlp">
+  <information>
+    <title>Shopping List</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <application-desc main-class="shopping.list.Bridge.productDisplay"  name="Shopping List" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
